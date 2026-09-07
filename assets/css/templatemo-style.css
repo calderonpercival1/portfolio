@@ -809,3 +809,18 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
+.video-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.portfolio-video {
+  width: 100%;
+  height: auto;
+  max-height: 365px;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #000;
+  border-radius: 5px;
+  display: block;
+}
